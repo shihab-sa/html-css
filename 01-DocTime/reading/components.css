@@ -1,0 +1,45 @@
+/* nav styles  */
+
+nav {
+  padding: 2rem 0;
+}
+.nav__icone,
+.nav__close,
+.nav__bgOverly {
+  display: none;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list_wrapper li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.nav__list_wrapper .nav__link {
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  color: var(--text-Black);
+  padding: 0.5rem;
+}
+.nav__list_wrapper li:hover .nav__link {
+  color: var(--btnTwo-color);
+}
+
+/* global btn  */
+.btn {
+  color: #8bd3;
+  font-family: "Poppins";
+  font-weight: 500;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  padding: 1.2rem 2rem;
+}
+
+.primary-btn {
+  color: white;
+  background-color: #67568c;
+}

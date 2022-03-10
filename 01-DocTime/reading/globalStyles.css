@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:ital@0;1&family=Raleway:ital,wght@0,400;0,500;1,400&family=Roboto:wght@300;400&display=swap");
+
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+:root {
+  /* white color  */
+  --white-bgColor: #ffffff;
+
+  /* button color  */
+  --btn-color: #8bd3dd;
+  --btnTwo-color: #001858;
+  --btnThree-color: #ffc0ad;
+  --btnTror-color: #9656a1;
+
+  /* background  */
+  --bg-col: #232946;
+
+  /* TEXT-COLOR  */
+  --text-Black: #1f1235;
+}
+
+body {
+  background-color: var(--white-bgColor);
+  overflow-x: hidden;
+}
+
+section {
+  padding: 100px 0;
+}
+
+@media only screen and (max-width: 760px) {
+  section {
+    padding: 50px 0;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-size: 1.8rem;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
